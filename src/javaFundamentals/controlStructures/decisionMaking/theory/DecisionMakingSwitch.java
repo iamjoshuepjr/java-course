@@ -1,4 +1,4 @@
-package javaFundamentals.controlStructures.decisionMaking;
+package javaFundamentals.controlStructures.decisionMaking.theory;
 import javax.swing.JOptionPane;
 
 public class DecisionMakingSwitch {

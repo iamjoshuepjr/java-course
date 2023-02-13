@@ -1,14 +1,11 @@
-package javaFundamentals.controlStructures.decisionMaking;
+package javaFundamentals.controlStructures.decisionMaking.theory;
 import javax.swing.JOptionPane;
 
-public class DecisionMakingIf {
+public class DecisionMakingIfElse {
     public static void main(String[] args) {
-        /*
-        simple if decision-making
-        The most simple decision-making statement.
-        It's used to decide whether a certain statement or block of statement will be executed or not.
-        */
-
+        /* An else statement to specify a block of code to be executed
+         * when the boolean expression is false */
+        JOptionPane.showMessageDialog(null, "Start");
         var age = Byte.parseByte(JOptionPane.showInputDialog("Enter your age here: "));
 
         JOptionPane.showMessageDialog(null, "Normal Flow");
@@ -20,7 +17,12 @@ public class DecisionMakingIf {
             JOptionPane.showMessageDialog(null, "Because age is: " + age);
             JOptionPane.showMessageDialog(null, "I'm in if-statement!");
         }
-
+        else
+        {
+            JOptionPane.showMessageDialog(null, "Because age is: " + age);
+            JOptionPane.showMessageDialog(null, "I'm in else-statement!");
+        }
         JOptionPane.showMessageDialog(null, "Normal Flow");
+        JOptionPane.showMessageDialog(null, "End");
     }
 }
