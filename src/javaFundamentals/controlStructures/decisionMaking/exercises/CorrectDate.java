@@ -2,7 +2,7 @@ package javaFundamentals.controlStructures.decisionMaking.exercises;
 
 import javax.swing.*;
 
-public class CorrectTime {
+public class CorrectDate {
     public static void main(String[] args) {
         /* Ask for the date as follows:
            day, month, year.
