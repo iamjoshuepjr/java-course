@@ -1,6 +1,6 @@
 package javaFundamentals.controlStructures.decisionMaking.exercises;
 
-import javax.swing.*;
+import javax.swing.JOptionPane;
 
 public class CorrectDate2 {
     public static void main(String[] args) {
