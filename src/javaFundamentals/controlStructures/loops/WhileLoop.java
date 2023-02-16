@@ -13,9 +13,11 @@ public class WhileLoop {
         */
 
         var count = 1;
+
         System.out.println("\n+-------------------------------------+");
         System.out.println("- Displaying the numbers from 1 to 24 -");
         System.out.println("+-------------------------------------+");
+        
         while (count < 25){
             System.out.println("Number: "+count);
             count++;
