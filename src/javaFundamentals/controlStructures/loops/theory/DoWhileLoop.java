@@ -1,8 +1,4 @@
-package javaFundamentals.controlStructures.loops;
-
-import javax.swing.*;
-import java.util.jar.JarOutputStream;
-
+package javaFundamentals.controlStructures.loops.theory;
 public class DoWhileLoop {
     public static void main(String[] args) {
         /* *

@@ -1,4 +1,4 @@
-package javaFundamentals.controlStructures.loops;
+package javaFundamentals.controlStructures.loops.theory;
 
 public class WhileLoop {
     public static void main(String[] args) {
