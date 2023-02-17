@@ -1,6 +1,6 @@
 package javaFundamentals.controlStructures.loops.exercises;
 
-import javax.swing.*;
+import javax.swing.JOptionPane;
 
 public class Square {
     public static void main(String[] args) {
