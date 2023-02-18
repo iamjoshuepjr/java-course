@@ -9,7 +9,7 @@ public class GuessRandomNumber {
         * To do this, generate a random number between 0 -  100, then indicate "is greater" or "is less"
         * with respect to N. The process ends when the user hits. Show the number of attempts.
         * */
-        var random = (int) Math.random() * 100;
+        byte random = (byte) (Math.random() * 100);
         var counter = 0;
         byte number;
 
