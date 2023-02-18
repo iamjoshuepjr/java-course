@@ -10,7 +10,7 @@ public class NumberCounter {
 
         while (number >= 0){
             number = Integer.parseInt(JOptionPane.showInputDialog("Enter another number here: "));
-            count += 1;
+            count ++;
         }
         JOptionPane.showMessageDialog(null, "You have entered ("+count+") numbers! ");
     }
