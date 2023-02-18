@@ -5,7 +5,7 @@ import javax.swing.JOptionPane;
 public class ShowFrom1toN {
     public static void main(String[] args) {
         /*
-        * Ask for a 'n' number, and display from 1 to n
+        * Ask for a number n, and display all numbers from 1 to n
         * */
 
         int number = Integer.parseInt(JOptionPane.showInputDialog("Enter a number here: "));
