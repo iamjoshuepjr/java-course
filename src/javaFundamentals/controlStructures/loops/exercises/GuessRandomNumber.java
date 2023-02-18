@@ -7,7 +7,7 @@ public class GuessRandomNumber {
         /*
         * Make a game to guess a number.
         * To do this, generate a random number between 0 -  100, then indicate "is greater" or "is less"
-        * with respect to N. The process ends when the user hits. Show the number of attempts.
+        * with respect to N. The 5process ends when the user hits. Show the number of attempts.
         * */
         byte random = (byte) (Math.random() * 100);
         var counter = 0;
@@ -23,6 +23,8 @@ public class GuessRandomNumber {
             counter++;
         }
         while (number != random);
-        JOptionPane.showMessageDialog(null, "Attempts: "+counter);
+        JOptionPane.showMessageDialog(null, "Congrats You guessed it!" +
+                "\nRandom: " + random +
+                "\nAttempts: "+counter);
     }
 }
