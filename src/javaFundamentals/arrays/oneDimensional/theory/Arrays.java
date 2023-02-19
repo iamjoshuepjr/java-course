@@ -60,7 +60,7 @@ public class Arrays {
         String[] cities = new String[5];
         cities[0] = "Los Angeles";
         cities[1] = "San Diego";
-        cities[2] = "Santa Jose";
+        cities[2] = "San Jose";
         cities[3] = "San Fransico";
         cities[4] = "Pittsburg";
 
@@ -73,7 +73,12 @@ public class Arrays {
         * array[index]
         * */
 
-
-
+        // Accessing each array elements
+        System.out.println("Accessing Elements of Array: ");
+        System.out.println("First Element: "+cities[0]);
+        System.out.println("Second Element: "+cities[1]);
+        System.out.println("Third Element: "+cities[2]);
+        System.out.println("Fourth Element: "+cities[3]);
+        System.out.println("Fifth Element: "+cities[4]);
     }
 }
