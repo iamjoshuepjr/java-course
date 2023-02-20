@@ -4,6 +4,7 @@ import javax.swing.JOptionPane;
 
 public class FillingArray {
     public static void main(String[] args) {
+
         // asking for elements
         var elements = Byte.parseByte(JOptionPane.showInputDialog("Enter the number of elements you want: "));
 
