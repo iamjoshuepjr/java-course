@@ -1,6 +1,6 @@
 package javaFundamentals.arrays.oneDimensional.exercises;
 
-import javax.swing.*;
+import javax.swing.JOptionPane;
 
 public class AverageAndZeroCounter {
     public static void main(String[] args) {
