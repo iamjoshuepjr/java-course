@@ -8,7 +8,7 @@ public class BackwardsArray {
         byte[] numbers = new byte[5];
 
         for (int i = 0; i < numbers.length; i++) {
-            numbers[i] = Byte.parseByte(JOptionPane.showInputDialog("Enter the ("+(i+1)+" number here: "));
+            numbers[i] = Byte.parseByte(JOptionPane.showInputDialog("Enter the ("+(i+1)+") number here: "));
         }
 
         for (int i = numbers.length - 1; i >= 0; i--) {
