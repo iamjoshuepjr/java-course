@@ -8,7 +8,6 @@ public class StringClass {
         // input
         System.out.print("Enter your name: ");
         var name = input.nextLine();
-        System.out.print("Enter your lastname: ");
 
         // process - output
         System.out.println("Your name has " + name.length() +" letters.");
