@@ -1,6 +1,6 @@
 package javaFundamentals.arrays.oneDimensional.exercises;
 
-import javax.swing.*;
+import javax.swing.JOptionPane;
 
 public class OrderEntered {
     public static void main(String[] args) {
