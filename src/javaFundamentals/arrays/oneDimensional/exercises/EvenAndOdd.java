@@ -1,6 +1,6 @@
 package javaFundamentals.arrays.oneDimensional.exercises;
 
-import javax.swing.*;
+import javax.swing.JOptionPane;
 
 public class EvenAndOdd {
     public static void main(String[] args) {
@@ -53,6 +53,5 @@ public class EvenAndOdd {
                 System.out.print(odd[i]);
             }
         }
-
     }
 }
