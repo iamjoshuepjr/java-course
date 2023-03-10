@@ -4,15 +4,22 @@ import javax.swing.JOptionPane;
 
 public class MoveElements3 {
     public static void main(String[] args) {
+        /*
+         * Ask for an array of 5 integers entered in increasing order.
+         * These numbers must be stored in an array of 10 integers. Then ask for a number n and put it in the right place
+         * so that the array looks neat.
+         */
+
         // create array
         byte[] numbers = new byte[10];
 
-        // auxiliary variable
+        // auxiliaries variables
         byte aux = 0, position = 0, newNumber;
         boolean ascending = true;
 
-        // filling Array
+        // filling array and validating its order
         do{
+            // filling Array
             for (byte i = 0; i < 5; i++){
                 numbers[i] = Byte.parseByte(JOptionPane.showInputDialog("Enter the ["+(i+1)+"] element from the  Array: "));
             }
@@ -29,7 +36,7 @@ public class MoveElements3 {
             }
 
             if (ascending == false){
-                JOptionPane.showMessageDialog(null, "Warning!\nArray is not in ascending order. Enter numbers again.");
+                JOptionPane.showMessageDialog(null, "Warning!\nArray is not in increasing order. Enter numbers again.");
             }
         }while (ascending == false);
 
@@ -46,6 +53,7 @@ public class MoveElements3 {
             numbers[i+1] = numbers[i];
         }
 
+        // storing the number entered by the user
         numbers[position] = newNumber;
 
         JOptionPane.showMessageDialog(null, "Array");
