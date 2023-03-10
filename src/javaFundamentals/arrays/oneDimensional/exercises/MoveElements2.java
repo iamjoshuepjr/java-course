@@ -4,8 +4,14 @@ import javax.swing.JOptionPane;
 
 public class MoveElements2 {
     public static void main(String[] args) {
+
+        /*
+         * Ask for an array of 9 integers and move them n position later.
+         * The n position is entered by the user.
+         */
+
         // creating array
-        byte[] numbers = new byte[10];
+        byte[] numbers = new byte[9];
 
         // auxiliaries
         byte aux, newNumber, position;
@@ -20,14 +26,14 @@ public class MoveElements2 {
         newNumber = Byte.parseByte(JOptionPane.showInputDialog("Enter a new number here: "));
 
         // fixing the array
-        for (int i = (position - 1); i < numbers.length - 1; i++) {
+        for (int i = (position - 1); i <= (numbers.length - 1); i++) {
             aux = numbers[i];
             numbers[i] = newNumber;
             newNumber = aux;
         }
 
         // Displaying the array
-        for (byte i = 0; i < 10; i++) {
+        for (byte i = 0; i < 9; i++) {
             System.out.println("Position ["+(i)+"] numbers["+numbers[i]+"]");
         }
     }
