@@ -29,6 +29,5 @@ public class RemoveElements {
         for(byte i = 0; i < 5; i++){
             System.out.println(numbers[i]);
         }
-
     }
 }
