@@ -25,7 +25,7 @@ public class EvenAndOdd {
         // iterators
         byte evenIterator = 0, oddIterator = 0;
 
-        // storing even and odd numbers on t1he corresponding array4
+        // storing even and odd numbers on the corresponding array
         for(byte i = 0; i < 10; i++){
             if(numbers[i] % 2 == 0){
                 even[evenIterator] = numbers[i]; // even array
