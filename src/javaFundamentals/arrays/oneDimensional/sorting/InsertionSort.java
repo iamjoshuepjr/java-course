@@ -25,7 +25,7 @@ public class InsertionSort {
 
         // create array
         byte[] numbers = new byte[10];
-        byte position = 0, current = 0, count = 0;
+        byte position, current;
 
         // ask for the number of elements to save
         byte elements = Byte.parseByte(JOptionPane.showInputDialog("Enter the number of elements you want enter (from 2 - 10). "));
@@ -50,7 +50,6 @@ public class InsertionSort {
         JOptionPane.showMessageDialog(null, "The Array's elements are in Ascending Order!");
         System.out.print("Ascending Order: [");
         for (byte i = 0; i < elements; i++) {
-            count++;
             if(i < elements - 1){
                 System.out.print(+ numbers[i]+", ");
             }else {
@@ -58,12 +57,10 @@ public class InsertionSort {
             }
 
         }
-        JOptionPane.showMessageDialog(null, "Sorted Successfully in ["+count+"] times!");
 
         JOptionPane.showMessageDialog(null, "The Array's elements are in Descending Order!");
         System.out.print("Descending Order: [");
         for (byte i = (byte) (elements - 1); i >= 0; i--) {
-            count++;
             if(i > 0){
                 System.out.print(numbers[i]+", ");
             }else {
