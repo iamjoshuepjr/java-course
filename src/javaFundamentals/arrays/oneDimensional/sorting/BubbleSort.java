@@ -19,7 +19,7 @@ public class BubbleSort {
          *  continuing until the end of the list is reached.
          *  5. Repeat steps 2 - 4 for each element in the list. until no more swaps are needed
          *  (i.e., the list is sorted).
-         *  The time complexity of bubble sort is O(n**2) in the worst case.
+         *  The time complexity of bubble sort is O(n^2) in the worst case.
          *  */
 
         // create array
@@ -27,7 +27,7 @@ public class BubbleSort {
         byte aux = 0, count = 0;
 
         // ask for the number of elements to save
-        byte elements = Byte.parseByte(JOptionPane.showInputDialog("Enter the number of elements you want enter. "));
+        byte elements = Byte.parseByte(JOptionPane.showInputDialog("Enter the number of elements you want enter (from 2 - 10). "));
 
         for (byte i = 0; i < elements ; i++) {
             numbers[i] = Byte.parseByte(JOptionPane.showInputDialog("Enter the ["+(i+1)+"] number. "));
