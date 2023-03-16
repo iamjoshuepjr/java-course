@@ -28,7 +28,9 @@ public class InsertionSort {
         byte position, current;
 
         // ask for the number of elements to save
-        byte elements = Byte.parseByte(JOptionPane.showInputDialog("Enter the number of elements you want enter (from 2 - 10). "));
+        byte elements = Byte.parseByte(JOptionPane.showInputDialog(
+                "Enter the number of elements you want store (from 2 - 10). " +
+                "\n(Numbers must not be greater than 127 nor less than -128)"));
 
         for (byte i = 0; i < elements ; i++) {
             numbers[i] = Byte.parseByte(JOptionPane.showInputDialog("Enter the ["+(i+1)+"] number. "));
