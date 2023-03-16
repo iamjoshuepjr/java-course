@@ -27,7 +27,9 @@ public class BubbleSort {
         byte aux;
 
         // ask for the number of elements to save
-        byte elements = Byte.parseByte(JOptionPane.showInputDialog("Enter the number of elements you want enter (from 2 - 10). "));
+        byte elements = Byte.parseByte(JOptionPane.showInputDialog(
+                        "Enter the number of elements you want store (from 2 - 10). " +
+                        "\n(Numbers must not be greater than 127 nor less than -128)"));
 
         for (byte i = 0; i < elements ; i++) {
             numbers[i] = Byte.parseByte(JOptionPane.showInputDialog("Enter the ["+(i+1)+"] number. "));
@@ -46,21 +48,23 @@ public class BubbleSort {
 
         // displaying array
         JOptionPane.showMessageDialog(null, "The Array's elements are in Ascending Order!");
+        System.out.print("Ascending Order: [");
         for (byte i = 0; i < elements; i++) {
             if(i < elements - 1){
                 System.out.print(numbers[i]+", ");
             }else {
-                System.out.print(numbers[i]+ "\n");
+                System.out.print(numbers[i]+ "]\n");
             }
 
         }
 
         JOptionPane.showMessageDialog(null, "The Array's elements are in Descending Order!");
+        System.out.print("Descending Order: [");
         for (byte i = (byte) (elements - 1); i >= 0; i--) {
             if(i > 0){
                 System.out.print(numbers[i]+", ");
             }else {
-                System.out.print(numbers[i]);
+                System.out.print(numbers[i] +"]");
             }
         }
     }
