@@ -2,7 +2,7 @@ package javaFundamentals.arrays.oneDimensional.algorithms;
 
 import javax.swing.JOptionPane;
 
-public class FillingArray {
+public class FillingArrayForLoop {
     public static void main(String[] args) {
         // Welcome message
         JOptionPane.showMessageDialog(null, "Welcome to Programming Academy!");
