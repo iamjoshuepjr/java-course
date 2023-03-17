@@ -24,7 +24,7 @@ public class FillingArrayForLoop {
                             "\nINDEX SUPPORTED BY ARRAY ["+index+"]");
         }
         else {
-            // saving elements on the array
+            // storing elements on the array
             for (byte i = 0; i < elements; i++) {
                 codes[i] = Short.parseShort(JOptionPane.showInputDialog("Student ["+(i+1)+"] code"));
                 names[i] = JOptionPane.showInputDialog("Student ["+(i+1)+"] name");
