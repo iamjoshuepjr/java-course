@@ -1,8 +1,6 @@
 package javaFundamentals.arrays.oneDimensional.sorting;
 
 import javax.swing.JOptionPane;
-import java.util.Arrays;
-
 public class BubbleSort {
     public static void main(String[] args) {
         /**
