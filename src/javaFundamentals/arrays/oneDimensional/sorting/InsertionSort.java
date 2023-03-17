@@ -1,6 +1,6 @@
 package javaFundamentals.arrays.oneDimensional.sorting;
 
-import javax.swing.*;
+import javax.swing.JOptionPane;
 
 public class InsertionSort {
     public static void main(String[] args) {
