@@ -17,7 +17,6 @@ public class SequentialSearch {
 
         // create array
         byte[] numbers = new byte[10];
-        byte aux, position;
         boolean found = false;
 
         // ask for the number of elements to save
