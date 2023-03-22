@@ -1,6 +1,6 @@
 package javaFundamentals.arrays.oneDimensional.theory;
-
-public class Arrays {
+import java.util.Arrays;
+public class Array {
     public static void main(String[] args) {
         /*
         * ===========================================================
@@ -80,5 +80,8 @@ public class Arrays {
         System.out.println("Third Element: "+cities[2]);
         System.out.println("Fourth Element: "+cities[3]);
         System.out.println("Fifth Element: "+cities[4]);
+
+        // Accessing the whole array using the Arrays Class
+        System.out.println(Arrays.toString(cities));
     }
 }
