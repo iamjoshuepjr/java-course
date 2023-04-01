@@ -1,4 +1,4 @@
-package javaFundamentals.arrays.oneDimensional.sorting.methods;
+package javaFundamentals.arrays.oneDimensional.searching.methods;
 import java.util.Arrays;
 
 public class SearchMethod {
