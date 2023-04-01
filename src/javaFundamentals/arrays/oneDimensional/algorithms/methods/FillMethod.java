@@ -10,7 +10,7 @@ public class FillMethod {
          * specified range of the specified array.
          */
 
-        System.out.println("Original Bay Area Array: " + Arrays.toString(bayArea);
+        System.out.println("Original Bay Area Array: " + Arrays.toString(bayArea));
 
         // Filling the entire array with "Texas" value
         Arrays.fill(bayArea, "Houston");
@@ -26,7 +26,7 @@ public class FillMethod {
         String[] countries = {"COLOMBIA", "USA", "CANADA", "ARGENTINA", "CHILE", "MEXICO", "CHINA", "JAPAN", "KOREA"};
         System.out.println("Original Countries Array: " + Arrays.toString(countries));
 
-        // filling array fom index 1 to index 6
+        // filling array fom index 1 to index 6 (without include it, in other words until index 5)
         Arrays.fill(countries, 1, 6, "ENGLAND");
         System.out.println("New Countries Array: " + Arrays.toString(countries) + "\n");
 
