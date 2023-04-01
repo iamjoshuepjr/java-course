@@ -29,6 +29,6 @@ public class SortMethod {
 
         // using .sort() method to sort in a specific range
         Arrays.sort(ages, 2, 7);
-        System.out.println("The sorted ages array between indexes 2 - 7 : " + Arrays.toString(ages));
+        System.out.println("The sorted ages array between indexes 2 - 6 : " + Arrays.toString(ages));
     }
 }
