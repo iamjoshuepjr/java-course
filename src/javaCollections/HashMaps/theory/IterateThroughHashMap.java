@@ -1,4 +1,4 @@
-package javaCollections.HashMaps.methods;
+package javaCollections.HashMaps.theory;
 
 import java.util.HashMap;
 import java.util.Map.Entry;
