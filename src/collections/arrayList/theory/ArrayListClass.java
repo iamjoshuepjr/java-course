@@ -1,4 +1,4 @@
-package javaFundamentals.arrayList.theory;
+package collections.arrayList.theory;
 import javax.swing.JOptionPane;
 import java.util.ArrayList;
 

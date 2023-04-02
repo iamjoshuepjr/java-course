@@ -1,4 +1,4 @@
-package javaFundamentals.HashMaps;
+package collections.HashMaps;
 
 public class HashMaps {
     public static void main(String[] args) {
