@@ -1,4 +1,4 @@
-package collections.arrayList.theory;
+package javaCollections.arrayList.theory;
 
 import java.util.ArrayList;
 
