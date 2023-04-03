@@ -41,7 +41,21 @@ public class HashMaps {
         winners.put("Ajax", 4);
 
         // Displaying the Hash Map
-        System.out.println("\nMost Champions: " + winners);
+        System.out.println("\nMost Champions+: " + winners);
+
+        /**
+         * -----------------------------------
+         *  Verify if an value already exists
+         * -----------------------------------
+         * The putIfAbsent() method in Java adds a key-value pair
+         * to a HashMap only if the specified key is not already present, using the key's hash code
+         * to determine the bucket. If the key is found, the existing value is returned and if not,
+         * the new key-value pair is added. It is not thread-safe.
+         */
+
+        String toPut = "Juventus";
+        System.out.println("What value has the key [" +toPut+ "]?: " + winners.putIfAbsent(toPut, 2));
+        System.out.println("\nMost Champions+: " + winners);
 
         /**+
          * ----------------------------
@@ -68,7 +82,6 @@ public class HashMaps {
 
         // Accessing key/value pairs using entrySet()
         System.out.println("Key Value Mapping" + winners.entrySet());
-
 
         /**
          * -------------------------
@@ -104,5 +117,19 @@ public class HashMaps {
         * key "Barcelona" is associated with the value 10.
         * */
         System.out.println("New Updated HashMap: " + winners);
+
+        // Checking contains specified key
+        String keyToSearch = "Real Madrid";
+        boolean contain = winners.containsKey(keyToSearch);
+        System.out.println("The ["+keyToSearch+"] key is in the map? "+ contain);
+
+        // Checking contains specified value
+        Integer valueToSearch = 19;
+        contain = winners.containsValue(valueToSearch);
+        System.out.println("The ["+valueToSearch+"] value is in the map? "+ contain);
+
+        // Checking if map is empty
+        boolean empty = winners.isEmpty();
+        System.out.println("The map is empty? " +empty);
     }
 }

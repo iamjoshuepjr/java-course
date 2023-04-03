@@ -12,25 +12,25 @@ public class IterateThroughHashMap {
          */
 
         // create a HashMap
-        HashMap<String, Integer> population = new HashMap<>();
+        HashMap<String, Integer> countryPopulation = new HashMap<>();
 
         // adding values to the HashMap
-        population.put("India", 1417173173);
-        population.put("China", 125887337);
-        population.put("United States", 338289857);
-        population.put("Colombia", 52023544);
-        population.put("Canada", 38781291);
-        population.put("Finland", 5544705);
-        population.put("United Kingdom", 67681344);
+        countryPopulation.put("India", 1417173173);
+        countryPopulation.put("China", 125887337);
+        countryPopulation.put("United States", 338289857);
+        countryPopulation.put("Colombia", 52023544);
+        countryPopulation.put("Canada", 38781291);
+        countryPopulation.put("Finland", 5544705);
+        countryPopulation.put("United Kingdom", 67681344);
 
         // displaying the HashMap
-        System.out.println("Population: " + population);
+        System.out.println("Population: " + countryPopulation);
 
         // iterate through keys only
         System.out.print("Keys/Countries: [");
         byte i = 0;
-        for (String country : population.keySet()) {
-            if (i < population.size() - 1) {
+        for (String country : countryPopulation.keySet()) {
+            if (i < countryPopulation.size() - 1) {
                 System.out.print(country + ", ");
             } else {
                 System.out.println(country + "] ");
@@ -41,8 +41,8 @@ public class IterateThroughHashMap {
         // iterate through values only
         System.out.print("Values/Population: [");
         i = 0;
-        for (Integer country : population.values()) {
-            if (i < population.size() - 1) {
+        for (Integer country : countryPopulation.values()) {
+            if (i < countryPopulation.size() - 1) {
                 System.out.print(country + ", ");
             } else {
                 System.out.println(country + "] ");
@@ -53,13 +53,21 @@ public class IterateThroughHashMap {
         // iterate through key/value pairs
         System.out.print("Entries: [");
         i = 0;
-        for (Entry<String, Integer> entry : population.entrySet()) {
-            if (i < population.size() - 1) {
+        for (Entry<String, Integer> entry : countryPopulation.entrySet()) {
+            if (i < countryPopulation.size() - 1) {
                 System.out.print(entry + ", ");
             } else {
                 System.out.println(entry + "] ");
-                i++;
             }
+            i++;
         }
+
+        // for each method
+        System.out.println("\nCountry Population Millions");
+        countryPopulation.forEach((country, population) ->{
+            System.out.println(country +" - "+ population );
+            countryPopulation.replace(country, population - 20000000);
+        });
+        System.out.println(countryPopulation.toString());
     }
 }
