@@ -1,6 +1,6 @@
 package javaFundamentals.arrays.multidimensional.exercises;
 
-import javax.swing.*;
+import javax.swing.JOptionPane;
 
 public class BackwardsArray {
     public static void main(String[] args) {
