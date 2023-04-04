@@ -65,13 +65,13 @@ public class Array {
         cities[4] = "Pittsburg";
 
         /*
-        * ===============================================
-        *       HOW TO ACCESS ELEMENTS OF AN ARRAY
-        * We can access the element of an array using
-        * the index number.
-        *        ----------- Syntax -----------
-        * array[index]
-        * */
+         * ===============================================
+         *       HOW TO ACCESS ELEMENTS OF AN ARRAY
+         * We can access the element of an array using
+         * the index number.
+         *        ----------- Syntax -----------
+         * array[index]
+         * */
 
         // Accessing each array elements
         System.out.println("Accessing Elements of Array: ");
