@@ -1,5 +1,4 @@
 package javaSubroutines.funtions;
-
 import javax.swing.JOptionPane;
 
 public class Functions {
