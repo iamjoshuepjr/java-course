@@ -6,9 +6,7 @@ public class IdentifierScope {
      * where an identifier (such as a variable, method, or class name) can be accessed.
      * The scope of an identifier is determined by its visibility, which is specified
      * by the access modifiers: 'public', 'protected', 'private' or no modifier.
-     */
-
-    /**
+     *
      * Class-level variables and methods (those declared outside any method)
      * have a scope that extends to the end of the class definition.
      * These variables and methods can be accessed from any method within the class,
