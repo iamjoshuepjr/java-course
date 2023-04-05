@@ -1,5 +1,4 @@
 package javaSubroutines.exercises;
-
 import javax.swing.JOptionPane;
 
 public class CheckString {
