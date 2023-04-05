@@ -1,5 +1,4 @@
 package javaSubroutines.procedures;
-
 import javax.swing.JOptionPane;
 
 public class Procedures {
