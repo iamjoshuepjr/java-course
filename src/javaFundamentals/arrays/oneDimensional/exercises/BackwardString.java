@@ -9,7 +9,7 @@ public class BackwardString {
         var length = text.length();
 
         // Creating Array
-        char[] character = new  char[length];
+        char[] character = new char[length];
         var inverse = length;
 
         for (byte i = 0; i < length; i++) {
