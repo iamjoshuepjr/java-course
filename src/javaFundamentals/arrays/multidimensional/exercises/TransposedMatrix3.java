@@ -26,7 +26,7 @@ public class TransposedMatrix3 {
         }
 
         // print original matrix
-        System.out.println("Original matrix:");
+        System.out.println("Original matrix");
         for (int i = 0; i < originalMatrix.length ; i++) {
             for (int j = 0; j < originalMatrix[i].length; j++) {
                 System.out.print(originalMatrix[i][j] + " ");
@@ -35,7 +35,7 @@ public class TransposedMatrix3 {
         }
 
         // print transposed matrix
-        System.out.println("Transposed matrix:");
+        System.out.println("Transposed matrix");
         for (int i = 0; i < transposedMatrix.length ; i++) {
             for (int j = 0; j < transposedMatrix[i].length; j++) {
                 System.out.print(transposedMatrix[i][j] + " ");
