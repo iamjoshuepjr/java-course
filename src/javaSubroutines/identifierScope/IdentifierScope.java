@@ -1,7 +1,5 @@
 package javaSubroutines.identifierScope;
 
-import javax.swing.JOptionPane;
-
 public class IdentifierScope {
     /**
      * In java an identifier scope refers to the portion of the program
