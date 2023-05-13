@@ -1,4 +1,4 @@
-package javaSubroutines.identifierScope;
+package javaSubroutines.theory.identifierScope;
 
 public class IdentifierScope {
     /**

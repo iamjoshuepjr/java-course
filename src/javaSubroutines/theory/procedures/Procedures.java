@@ -1,4 +1,4 @@
-package javaSubroutines.procedures;
+package javaSubroutines.theory.procedures;
 import javax.swing.JOptionPane;
 
 public class Procedures {
