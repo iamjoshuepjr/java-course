@@ -1,4 +1,4 @@
-package javaSubroutines.theory.funtions;
+package javaSubroutines.theory.functions;
 import javax.swing.JOptionPane;
 
 public class Functions {
