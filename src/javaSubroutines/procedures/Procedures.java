@@ -25,5 +25,4 @@ public class Procedures {
             System.out.print(character);
         }
     }
-
 }
