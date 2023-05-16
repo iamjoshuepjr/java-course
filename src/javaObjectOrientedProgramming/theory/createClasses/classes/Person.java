@@ -1,4 +1,4 @@
-package javaObjectOrientedProgramming.theory.person;
+package javaObjectOrientedProgramming.theory.createClasses.classes;
 
 import javax.swing.JOptionPane;
 
@@ -6,13 +6,13 @@ import javax.swing.JOptionPane;
 public class Person {
 
     // Attributes
-    String name;
-    String lastname;
-    byte age;
-    String occupation;
+    public String name;
+    public String lastname;
+    public byte age;
+    public String occupation;
 
     // Methods
-    void sayHello(){
+    public void sayHello(){
         JOptionPane.showMessageDialog(null, "Hello, my name is "+name+ " " +lastname+" and I'm "+age+ " years old!\nCurrently I'm a self-taught" +occupation+" student.");
     }
 }

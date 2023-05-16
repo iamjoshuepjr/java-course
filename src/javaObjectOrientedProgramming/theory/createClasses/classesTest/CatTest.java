@@ -1,4 +1,6 @@
-package javaObjectOrientedProgramming.theory.cat;
+package javaObjectOrientedProgramming.theory.createClasses.classesTest;
+
+import javaObjectOrientedProgramming.theory.createClasses.classes.Cat;
 
 // Class Controller
 public class CatTest {

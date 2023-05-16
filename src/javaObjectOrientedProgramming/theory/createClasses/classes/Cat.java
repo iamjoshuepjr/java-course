@@ -1,4 +1,4 @@
-package javaObjectOrientedProgramming.theory.cat;
+package javaObjectOrientedProgramming.theory.createClasses.classes;
 
 import javax.swing.JOptionPane;
 
@@ -6,18 +6,18 @@ import javax.swing.JOptionPane;
 public class Cat {
 
     // Attributes
-    String name;
-    byte age;
-    String breed;
-    String color;
-    boolean isHungry;
+    public String name;
+    public byte age;
+    public String breed;
+    public String color;
+    public boolean isHungry;
 
     // Methods
-    void sleep(){
+    public void sleep(){
         JOptionPane.showMessageDialog(null, "Shhhhhhh! "+ name + "is Sleeping.");
     }
 
-    void eat(boolean isHungry){
+    public void eat(boolean isHungry){
         if(isHungry){
             JOptionPane.showMessageDialog(null, "So cute, " +name+ " is eating its favourite food.");
         } else {
@@ -26,11 +26,11 @@ public class Cat {
 
     }
 
-    void play(){
+    public void play(){
         JOptionPane.showMessageDialog(null, "Oh, my God! "+name+" wants to play with you!");
     }
 
-    void meow(){
+    public void meow(){
         JOptionPane.showMessageDialog(null, "Listen to "+name+ " it's saying meow!");
     }
 }

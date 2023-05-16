@@ -1,4 +1,4 @@
-package javaObjectOrientedProgramming.theory.car;
+package javaObjectOrientedProgramming.theory.createClasses.classes;
 
 import javax.swing.JOptionPane;
 
@@ -16,10 +16,10 @@ import javax.swing.JOptionPane;
 public class Car {
 
     // attributes
-    String brand;
-    String color;
-    String model;
-    short year;
+    public String brand;
+    public String color;
+    public String model;
+    public short year;
 
     // methods
     public void start() {

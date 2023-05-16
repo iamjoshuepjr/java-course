@@ -1,4 +1,6 @@
-package javaObjectOrientedProgramming.theory.person;
+package javaObjectOrientedProgramming.theory.createClasses.classesTest;
+
+import javaObjectOrientedProgramming.theory.createClasses.classes.Person;
 
 // Class Controller
 public class PersonTest {

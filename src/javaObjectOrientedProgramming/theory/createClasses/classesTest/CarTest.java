@@ -1,4 +1,6 @@
-package javaObjectOrientedProgramming.theory.car;
+package javaObjectOrientedProgramming.theory.createClasses.classesTest;
+
+import javaObjectOrientedProgramming.theory.createClasses.classes.Car;
 
 // Class Controller
 public class CarTest {
