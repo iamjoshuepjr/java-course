@@ -1,4 +1,4 @@
-package javaObjectOrientedProgramming.theory;
+package javaObjectOrientedProgramming.theory.car;
 
 // Class Controller
 public class CarTest {

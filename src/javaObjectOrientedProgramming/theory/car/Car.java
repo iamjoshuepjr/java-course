@@ -1,4 +1,4 @@
-package javaObjectOrientedProgramming.theory;
+package javaObjectOrientedProgramming.theory.car;
 
 import javax.swing.JOptionPane;
 
