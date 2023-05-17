@@ -11,14 +11,18 @@ public class BovineTest {
         // Accessing Bovine Object methods
         bovine.displayInfo();
         bovine.eat();
+        bovine.moo();
         bovine.displayInfo();
         bovine.eat("grass");
+        bovine.moo(7);
         bovine.displayInfo();
 
         bovine2.displayInfo();
         bovine2.eat();
+        bovine2.moo();
         bovine2.displayInfo();
         bovine2.eat("grass");
+        bovine2.moo(7);
         bovine2.displayInfo();
     }
 }
