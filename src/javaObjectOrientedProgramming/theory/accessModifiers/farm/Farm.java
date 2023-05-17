@@ -17,6 +17,14 @@ public class Farm {
         bovine.color = "Black";    // ERROR: color has default access and is not accessible from Farm.
                                    // It's not accessible outside the package or by subclasses in other packages.
 
-        bovine.age = 2;            // Accessible from anywhere
+        bovine.age = 2;            // Accessible from anywhere (public access modifier)
+
+        bovine.eat();              // Accessible from anywhere (public access modifier)
+        bovine.displayInfo();
+        bovine.eat("grass");  // ERROR: eat(String food) is private. We cannot access directly private members.
+        bovine.makeSound();        // ERROR: makeSound() is protected. It's only accessible inside the same package or by
+                                   // a subclass in other package.
+
+        bovine.makeSound(5); // ERROR: makeSound(int n_times) has default access. It's not accessible outside its own package
     }
 }

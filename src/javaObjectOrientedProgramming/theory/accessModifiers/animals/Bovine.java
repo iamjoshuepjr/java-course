@@ -42,16 +42,16 @@ public class Bovine {
     }
 
     // Method overloaded
-    public void eat(String food){
+    private void eat(String food){
         JOptionPane.showMessageDialog(null, "The bovine is eating " +food+ ".");
         weight += 10;
     }
 
-    public void makeSound(){
+    protected void makeSound(){
         JOptionPane.showMessageDialog(null, "MOOOOOOOOO!");
     }
 
-    public void makeSound(int n_times){
+    void makeSound(int n_times){
         for (int i = 0; i < n_times; i++) {
             JOptionPane.showMessageDialog(null, "MOOOOOOOOO!");
         }
