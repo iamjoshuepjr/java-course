@@ -1,6 +1,6 @@
 package javaObjectOrientedProgramming.theory.constructor.constructorOverload;
 
-import javax.swing.*;
+import javax.swing.JOptionPane;
 
 public class RocketTest {
     public static void main(String[] args) {
