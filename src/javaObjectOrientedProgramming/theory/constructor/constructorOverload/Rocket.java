@@ -7,6 +7,29 @@ package javaObjectOrientedProgramming.theory.constructor.constructorOverload;
  * allowing flexibility and convenience in object creation.
  */
 
-public class ConstructorOverload {
-    
+public class Rocket {
+    String name;
+    float mass;
+    float velocity;
+
+    // Constructor with all parameters
+    public Rocket(String name, float mass, float velocity){
+        this.name = name;
+        this.mass = mass;
+        this.velocity = velocity;
+    }
+
+    // Constructor with name and mass
+    public Rocket(String name, float mass){
+        this.name = name;
+        this.mass = mass;
+        this.velocity = 0;
+    }
+
+    // Constructor with name only
+    public Rocket(String name){
+        this.name = name;
+        this.mass = 0;
+        this.velocity = 0;
+    }
 }
