@@ -18,6 +18,8 @@ import javax.swing.JOptionPane;
  * These are methods declared with the 'static' keyword and can be called
  * without creating an object of the class. They belong to the class itself
  * and can only access other static members.
+ *
+ * This allows us to use the class and its functionality conveniently without the need for object instantiation.
  */
 
 // Object Class
@@ -57,15 +59,12 @@ public class BankAccount {
         balance += amount;
     }
 
-    public void withdraw(float amount){
+    public float withdraw(float amount){
         if(balance >= amount){
             balance -= amount;
         } else {
             JOptionPane.showMessageDialog(null, "Insufficient funds.");
         }
-    }
-    // Class method
-    public static int subtract(int a, int b){
-        return a - b;
+        return amount;
     }
 }

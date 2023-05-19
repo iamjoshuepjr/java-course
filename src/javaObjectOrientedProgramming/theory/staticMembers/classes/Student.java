@@ -4,7 +4,7 @@ public class Student {
 
     // Class Attributes
     private static int nextStudentId = 1000;
-    private static String universityName = "XYZ University";
+    private static String universityName = "ABC University";
 
     // Instance Attributes
     private int studentId;
