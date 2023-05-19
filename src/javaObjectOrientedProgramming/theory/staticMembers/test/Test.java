@@ -1,4 +1,6 @@
-package javaObjectOrientedProgramming.theory.staticMembers;
+package javaObjectOrientedProgramming.theory.staticMembers.test;
+
+import javaObjectOrientedProgramming.theory.staticMembers.classes.BankAccount;
 
 import javax.swing.JOptionPane;
 
