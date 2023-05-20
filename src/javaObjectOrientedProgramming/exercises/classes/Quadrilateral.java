@@ -1,4 +1,4 @@
-package javaObjectOrientedProgramming.exercises.calculate;
+package javaObjectOrientedProgramming.exercises.classes;
 
 public class Quadrilateral {
     // Attributes

@@ -1,4 +1,6 @@
-package javaObjectOrientedProgramming.exercises.calculate;
+package javaObjectOrientedProgramming.exercises.test;
+
+import javaObjectOrientedProgramming.exercises.classes.Quadrilateral;
 
 import javax.swing.*;
 
