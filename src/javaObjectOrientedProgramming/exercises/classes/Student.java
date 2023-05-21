@@ -22,12 +22,12 @@ public class Student {
     }
 
     public float finalGrade(float[] grades){
-        float grade = 0, sum = 0;
+        float sum = 0;
 
-        for (int i = 0; i < grades.length; i++) {
-            sum  += grades[i];
-            grade = sum / grades.length;
+        for (float grade : grades) {
+            sum += grade;
         }
-        return grade;
+
+        return sum / grades.length;
     }
 }

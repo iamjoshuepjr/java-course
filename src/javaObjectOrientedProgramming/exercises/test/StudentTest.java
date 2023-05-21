@@ -28,7 +28,8 @@ public class StudentTest {
             students[i] = new Student(name, lastname, grades);
 
             JOptionPane.showMessageDialog(null, "Final grade " +
-                    "Student: " + students[i].fullName()+ " grade: " + students[i].finalGrade(grades));
+                    "\nStudent: " + students[i].fullName()+
+                    "\nGrade: " + students[i].finalGrade(grades));
         }
     }
 }
