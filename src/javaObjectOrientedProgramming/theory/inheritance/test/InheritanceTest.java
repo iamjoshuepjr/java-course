@@ -2,7 +2,7 @@ package javaObjectOrientedProgramming.theory.inheritance.test;
 
 import javaObjectOrientedProgramming.theory.inheritance.classes.Dog;
 
-import javax.swing.*;
+import javax.swing.JOptionPane;
 
 public class InheritanceTest {
     public static void main(String[] args) {

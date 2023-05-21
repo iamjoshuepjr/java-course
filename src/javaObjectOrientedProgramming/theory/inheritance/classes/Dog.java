@@ -2,7 +2,7 @@ package javaObjectOrientedProgramming.theory.inheritance.classes;
 
 import javaObjectOrientedProgramming.theory.inheritance.classes.Animal;
 
-import javax.swing.*;
+import javax.swing.JOptionPane;
 
 /**
  *  ============================================================

@@ -1,6 +1,6 @@
 package javaObjectOrientedProgramming.theory.inheritance.classes;
 
-import javax.swing.*;
+import javax.swing.JOptionPane;
 
 /**
  *  ==========================================================
