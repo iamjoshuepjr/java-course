@@ -1,6 +1,4 @@
-package javaObjectOrientedProgramming.theory.inheritance.classes;
-
-import javaObjectOrientedProgramming.theory.inheritance.classes.Animal;
+package javaObjectOrientedProgramming.theory.inheritance.theory.classes;
 
 import javax.swing.JOptionPane;
 
