@@ -7,7 +7,7 @@ public class Farm {
         Bovine bovine = new Bovine();
         Chicken chicken = new Chicken();
 
-        Accessing Bovine class from the Farm Class
+        // Accessing Bovine class from the Farm Class
         bovine.breed = "Holstein"; // ERROR: breed is private and is not accessible outside the class.
                                    // We cannot access directly private members from Farm class.
 
