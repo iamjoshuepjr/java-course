@@ -1,6 +1,8 @@
 package javaObjectOrientedProgramming.exercises.inheritance.test;
 
-import javaObjectOrientedProgramming.exercises.inheritance.classes.*;
+import javaObjectOrientedProgramming.exercises.inheritance.classes.bank.BankAccount;
+import javaObjectOrientedProgramming.exercises.inheritance.classes.bank.CheckingAccount;
+import javaObjectOrientedProgramming.exercises.inheritance.classes.bank.SavingAccount;
 
 import javax.swing.JOptionPane;
 
