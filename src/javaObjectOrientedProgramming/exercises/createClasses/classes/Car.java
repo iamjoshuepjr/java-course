@@ -1,6 +1,4 @@
-package javaObjectOrientedProgramming.exercises.classes;
-
-import javax.swing.JOptionPane;
+package javaObjectOrientedProgramming.exercises.createClasses.classes;
 
 // Object Class
 public class Car {

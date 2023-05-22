@@ -1,4 +1,4 @@
-package javaObjectOrientedProgramming.exercises.classes;
+package javaObjectOrientedProgramming.exercises.createClasses.classes;
 
 /**
  * Create a class that allows calculating the final grade of a student.

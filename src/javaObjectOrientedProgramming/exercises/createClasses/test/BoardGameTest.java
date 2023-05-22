@@ -1,6 +1,6 @@
-package javaObjectOrientedProgramming.exercises.test;
+package javaObjectOrientedProgramming.exercises.createClasses.test;
 
-import javaObjectOrientedProgramming.exercises.classes.BoardGame;
+import javaObjectOrientedProgramming.exercises.createClasses.classes.BoardGame;
 
 public class BoardGameTest {
     public static void main(String[] args) {

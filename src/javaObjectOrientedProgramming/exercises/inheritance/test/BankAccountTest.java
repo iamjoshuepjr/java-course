@@ -1,10 +1,8 @@
-package javaObjectOrientedProgramming.theory.inheritance.exercises.test;
+package javaObjectOrientedProgramming.exercises.inheritance.test;
 
-import javaObjectOrientedProgramming.theory.inheritance.exercises.classes.BankAccount;
-import javaObjectOrientedProgramming.theory.inheritance.exercises.classes.CheckingAccount;
-import javaObjectOrientedProgramming.theory.inheritance.exercises.classes.SavingAccount;
+import javaObjectOrientedProgramming.exercises.inheritance.classes.*;
 
-import javax.swing.*;
+import javax.swing.JOptionPane;
 
 // Controller Class
 public class BankAccountTest {
@@ -32,6 +30,13 @@ public class BankAccountTest {
         account2.calculateInterest(6);
 
         // Instantiating CheckingAccount
-        CheckingAccount account3 = new CheckingAccount(234525649, "Josh", 500000f, 788888);
+        CheckingAccount account3 = new CheckingAccount(234525649, "Josh", 500000f, 70000);
+        JOptionPane.showMessageDialog(null, "----------------- CHECKING ACCOUNT -----------------" +
+                "\nACCOUNT HOLDER NAME:" + account3.getAccountHolderName() +
+                "\nACCOUNT NUMBER: " + account3.getAccountNumber()
+        );
+        account3.displayBalance();
+        account3.withdrawWithOverdraft(59999);
+        account3.displayBalance();
     }
 }

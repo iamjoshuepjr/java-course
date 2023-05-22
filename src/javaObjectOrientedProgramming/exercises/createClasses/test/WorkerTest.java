@@ -1,6 +1,6 @@
-package javaObjectOrientedProgramming.exercises.test;
+package javaObjectOrientedProgramming.exercises.createClasses.test;
 
-import javaObjectOrientedProgramming.exercises.classes.Worker;
+import javaObjectOrientedProgramming.exercises.createClasses.classes.Worker;
 
 import javax.swing.*;
 

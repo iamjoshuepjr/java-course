@@ -1,4 +1,4 @@
-package javaObjectOrientedProgramming.exercises.classes;
+package javaObjectOrientedProgramming.exercises.createClasses.classes;
 
 /**
  * Create a class that allows calculating the salary of a worker based on their worked hours, knowing that all workers have the same hourly rate.

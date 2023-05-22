@@ -1,5 +1,5 @@
-package javaObjectOrientedProgramming.exercises.test;
-import javaObjectOrientedProgramming.exercises.classes.Athlete;
+package javaObjectOrientedProgramming.exercises.createClasses.test;
+import javaObjectOrientedProgramming.exercises.createClasses.classes.Athlete;
 
 import javax.swing.JOptionPane;
 

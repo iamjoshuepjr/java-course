@@ -1,4 +1,4 @@
-package javaObjectOrientedProgramming.theory.inheritance.exercises.classes;
+package javaObjectOrientedProgramming.exercises.inheritance.classes;
 
 import javax.swing.JOptionPane;
 

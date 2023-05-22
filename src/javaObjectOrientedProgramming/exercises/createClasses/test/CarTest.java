@@ -1,5 +1,5 @@
-package javaObjectOrientedProgramming.exercises.test;
-import javaObjectOrientedProgramming.exercises.classes.Car;
+package javaObjectOrientedProgramming.exercises.createClasses.test;
+import javaObjectOrientedProgramming.exercises.createClasses.classes.Car;
 
 import javax.swing.JOptionPane;
 

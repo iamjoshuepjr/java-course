@@ -1,5 +1,5 @@
-package javaObjectOrientedProgramming.exercises.test;
-import javaObjectOrientedProgramming.exercises.classes.IsoscelesTriangle;
+package javaObjectOrientedProgramming.exercises.createClasses.test;
+import javaObjectOrientedProgramming.exercises.createClasses.classes.IsoscelesTriangle;
 
 import javax.swing.JOptionPane;
 

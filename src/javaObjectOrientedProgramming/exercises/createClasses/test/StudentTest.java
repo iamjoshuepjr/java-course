@@ -1,5 +1,5 @@
-package javaObjectOrientedProgramming.exercises.test;
-import javaObjectOrientedProgramming.exercises.classes.Student;
+package javaObjectOrientedProgramming.exercises.createClasses.test;
+import javaObjectOrientedProgramming.exercises.createClasses.classes.Student;
 import javax.swing.JOptionPane;
 
 // Controller Class

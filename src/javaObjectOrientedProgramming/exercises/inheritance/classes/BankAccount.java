@@ -1,4 +1,4 @@
-package javaObjectOrientedProgramming.theory.inheritance.exercises.classes;
+package javaObjectOrientedProgramming.exercises.inheritance.classes;
 import javax.swing.JOptionPane;
 
 // Object class
@@ -51,6 +51,10 @@ public class BankAccount {
 
     public float getBalance(){
         return balance;
+    }
+
+    public void setBalance(float balance){
+        this.balance = balance;
     }
 
     public String getAccountHolderName() {
