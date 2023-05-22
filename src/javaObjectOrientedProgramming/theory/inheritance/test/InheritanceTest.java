@@ -1,6 +1,6 @@
-package javaObjectOrientedProgramming.theory.inheritance.theory.test;
+package javaObjectOrientedProgramming.theory.inheritance.test;
 
-import javaObjectOrientedProgramming.theory.inheritance.theory.classes.Dog;
+import javaObjectOrientedProgramming.theory.inheritance.classes.Dog;
 
 import javax.swing.JOptionPane;
 
