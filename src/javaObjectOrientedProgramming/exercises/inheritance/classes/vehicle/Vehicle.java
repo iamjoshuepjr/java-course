@@ -6,13 +6,17 @@ import javax.swing.JOptionPane;
 public class Vehicle {
     // Attributes
     private float rentalRatePrice;
+    private float hourlyRate;
+    private float dailyRate;
     private String registrationNumber;
     private String make;
     private String model;
     private short year;
 
     // Constructor
-    public Vehicle(float rentalRatePrice, String registrationNumber, String make, String model, short year){
+    public Vehicle(float rentalRatePrice, float hourlyRate, float dailyRate, String registrationNumber, String make, String model, short year){
+        this.hourlyRate = hourlyRate;
+        this.dailyRate = dailyRate;
         this.rentalRatePrice = rentalRatePrice;
         this.registrationNumber = registrationNumber;
         this.make = make;
@@ -47,16 +51,22 @@ public class Vehicle {
     }
 
     // Methods
-    public void calculateRentalCost(float time) {
-        float cost = rentalRatePrice * time;
-        JOptionPane.showMessageDialog(null, "VEHICLE RENTAL COST" +
-                "\nTime: " + time + " Hours" +
-                "\nHour Cost:  $USD " + rentalRatePrice +
-                "\nRental Cost: $USD " + cost
-        );
+    public float calculateRentalCost(float time) {
+        float rentalCost = 0.0F;
+        if (time <= 1) {
+            rentalCost = rentalRatePrice;
+        } else if (time <= 24) {
+            rentalCost = (float) (rentalRatePrice + (Math.ceil(time) - 1) * hourlyRate);
+        } else {
+            int fullDays = (int) (time / 24);
+            int remainingHours = (int) (time % 24);
+            rentalCost = rentalRatePrice + fullDays * dailyRate + remainingHours * hourlyRate;
+        }
+
+        return rentalCost;
     }
-    public void information(){
-        JOptionPane.showMessageDialog(null, "VEHICLE INFORMATION " +
+    public void information(String title){
+        JOptionPane.showMessageDialog(null, title +
                 "\nMake: " + getMake() +
                 "\nRegistration Number " + getRegistrationNumber() +
                 "\nModel: " + getModel() +

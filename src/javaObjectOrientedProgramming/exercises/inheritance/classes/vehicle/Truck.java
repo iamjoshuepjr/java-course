@@ -1,12 +1,14 @@
 package javaObjectOrientedProgramming.exercises.inheritance.classes.vehicle;
 
+import javax.swing.*;
+
 public class Truck extends Vehicle{
     private float cargoCapacity;
 
 
     // Constructor
-    public Truck(float rentalRatePrice, String registrationNumber, String make, String model, short year, float cargoCapacity){
-        super(rentalRatePrice, registrationNumber, make, model, year);
+    public Truck(float rentalRatePrice, float hourlyRate, float dailyRate, String registrationNumber, String make, String model, short year, float cargoCapacity){
+        super(rentalRatePrice, hourlyRate, dailyRate, registrationNumber, make, model, year);
         this.cargoCapacity = cargoCapacity;
     }
 
@@ -19,10 +21,19 @@ public class Truck extends Vehicle{
         this.cargoCapacity = cargoCapacity;
     }
 
-    // Override calculateRentalCost()
+    @Override
+    public void information(String title) {
+        JOptionPane.showMessageDialog(null, title +
+                "\nMake: " + this.getMake() +
+                "\nCargo Capacity: " + cargoCapacity +
+                "\nRegistration Number " + this.getRegistrationNumber() +
+                "\nModel: " + this.getModel() +
+                "\nYear: " + this.getYear()
+        );
+    }
 
     @Override
-    public void calculateRentalCost(float time) {
-        super.calculateRentalCost(time);
+    public float calculateRentalCost(float time) {
+        return super.calculateRentalCost(time);
     }
 }
