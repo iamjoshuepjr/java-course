@@ -1,6 +1,5 @@
 package javaObjectOrientedProgramming.exercises.inheritance.classes.vehicle;
-
-import javax.swing.*;
+import javax.swing.JOptionPane;
 
 public class Truck extends Vehicle{
     private float cargoCapacity;
