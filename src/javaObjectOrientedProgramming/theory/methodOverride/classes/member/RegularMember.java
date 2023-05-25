@@ -28,7 +28,7 @@ public class RegularMember extends Member{
         JOptionPane.showMessageDialog(null, "Regular Member Information" +
                 "\nName: " + getName() +
                 "\nAge: " + getAge() +
-                "\nDate joined" + getDateJoined() +
+                "\nDate joined: " + getDateJoined() +
                 "\nAddress: " + getAddress() +
                 "\nContact Number: " + getContactNumber()
         );
