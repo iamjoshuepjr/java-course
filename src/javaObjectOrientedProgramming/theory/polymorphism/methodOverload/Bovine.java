@@ -1,4 +1,4 @@
-package javaObjectOrientedProgramming.theory.methodOverload;
+package javaObjectOrientedProgramming.theory.polymorphism.methodOverload;
 
 import javax.swing.JOptionPane;
 

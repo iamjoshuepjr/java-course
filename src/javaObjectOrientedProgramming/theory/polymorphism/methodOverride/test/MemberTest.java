@@ -1,8 +1,8 @@
-package javaObjectOrientedProgramming.theory.methodOverride.test;
+package javaObjectOrientedProgramming.theory.polymorphism.methodOverride.test;
 
-import javaObjectOrientedProgramming.theory.methodOverride.classes.member.RegularMember;
-import javaObjectOrientedProgramming.theory.methodOverride.classes.member.StaffMember;
-import javaObjectOrientedProgramming.theory.methodOverride.classes.member.VolunteerMember;
+import javaObjectOrientedProgramming.theory.polymorphism.methodOverride.classes.member.RegularMember;
+import javaObjectOrientedProgramming.theory.polymorphism.methodOverride.classes.member.StaffMember;
+import javaObjectOrientedProgramming.theory.polymorphism.methodOverride.classes.member.VolunteerMember;
 
 // Controller Class
 public class MemberTest {

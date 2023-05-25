@@ -1,4 +1,4 @@
-package javaObjectOrientedProgramming.theory.methodOverride.classes.member;
+package javaObjectOrientedProgramming.theory.polymorphism.methodOverride.classes.member;
 
 import javax.swing.JOptionPane;
 
