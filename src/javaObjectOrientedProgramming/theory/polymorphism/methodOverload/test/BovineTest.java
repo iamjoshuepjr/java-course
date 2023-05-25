@@ -1,4 +1,6 @@
-package javaObjectOrientedProgramming.theory.polymorphism.methodOverload;
+package javaObjectOrientedProgramming.theory.polymorphism.methodOverload.test;
+
+import javaObjectOrientedProgramming.theory.polymorphism.methodOverload.classes.Bovine;
 
 // Class Controller
 public class BovineTest {
