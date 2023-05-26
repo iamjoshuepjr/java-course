@@ -12,7 +12,7 @@ public class MetaTest {
         platform.information(platform);
     }
     public static void main(String[] args) {
-        // Polymorphism between classes
+        // Polymorphism between classes :)
         Meta facebook = new Facebook("Facebook", 2989000000L);
         Meta whatsApp = new WhatsApp("WhatsApp", 2400000000L);
         Meta instagram = new Instagram("Instagram", 1628000000L);
