@@ -5,25 +5,20 @@ import javaObjectOrientedProgramming.theory.abstractClasses.classes.meta.Instagr
 import javaObjectOrientedProgramming.theory.abstractClasses.classes.meta.WhatsApp;
 import javaObjectOrientedProgramming.theory.abstractClasses.classes.meta.abstracts.Meta;
 
-import javax.swing.JOptionPane;
-
 // Controller Class
-public class SocialMediaPlatformTest {
+public class MetaTest {
 
     public static void display(Meta platform){
-        JOptionPane.showMessageDialog(null, "SOCIAL MEDIA INFORMATION" +
-          "\nPlatform Name: " + platform.getPlatformName() +
-          "\nTotal Users: " + platform.getTotalUsers()
-        );
+        platform.information(platform);
     }
     public static void main(String[] args) {
         // Polymorphism between classes
-        Meta facebook = new Facebook("Facebook", 2500000000L);
-        Meta twitter = new WhatsApp("Twitter", 330000000L);
-        Meta instagram = new Instagram("Instagram", 1000000000L);
+        Meta facebook = new Facebook("Facebook", 2989000000L);
+        Meta whatsApp = new WhatsApp("WhatsApp", 2400000000L);
+        Meta instagram = new Instagram("Instagram", 1628000000L);
 
         display(facebook);
-        display(twitter);
+        display(whatsApp);
         display(instagram);
     }
 }
