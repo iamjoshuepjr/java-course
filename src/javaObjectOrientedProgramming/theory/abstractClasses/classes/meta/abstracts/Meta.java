@@ -14,7 +14,6 @@ package javaObjectOrientedProgramming.theory.abstractClasses.classes.meta.abstra
  * both abstract and non-abstract methods and can also have instance variables.
  */
 
-
 // Superclass (Abstract Class)
 // Object Class
 public abstract class Meta {
@@ -45,6 +44,5 @@ public abstract class Meta {
         this.totalUsers = totalUsers;
     }
 
-    // Abstract Methods
-    public abstract void information();
+    public abstract void information(Meta platform);
 }
