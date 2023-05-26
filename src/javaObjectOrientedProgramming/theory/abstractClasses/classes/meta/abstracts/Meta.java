@@ -17,13 +17,13 @@ package javaObjectOrientedProgramming.theory.abstractClasses.classes.meta.abstra
 
 // Superclass (Abstract Class)
 // Object Class
-public abstract class SocialMediaPlatform {
+public abstract class Meta {
     // Attributes
     private String platformName;
     private long totalUsers;
 
     // Constructor
-    public SocialMediaPlatform(String platformName, long totalUsers){
+    public Meta(String platformName, long totalUsers){
         this.platformName = platformName;
         this.totalUsers = totalUsers;
     }
