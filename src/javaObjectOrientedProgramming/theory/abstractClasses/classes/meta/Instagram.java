@@ -10,7 +10,10 @@ public class Instagram extends Meta {
     }
 
     @Override
-    public void information() {
-        JOptionPane.showMessageDialog(null, "");
+    public void information(Meta platform) {
+        String platformName = platform.getPlatformName();
+        JOptionPane.showMessageDialog(null,  platformName.toUpperCase() + " INFORMATION" +
+                "\nPlatform Name: " + platformName +
+                "\nTotal Users: " + platform.getTotalUsers());
     }
 }
