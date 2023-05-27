@@ -19,6 +19,8 @@ public abstract class ElectronicDevice {
     public abstract void  turnOn();
     public abstract void turnOff();
 
+    public abstract void information();
+
     // Getters and Setters
     public String getBrand() {
         return brand;
