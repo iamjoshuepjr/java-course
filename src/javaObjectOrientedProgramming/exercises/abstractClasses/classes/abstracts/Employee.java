@@ -1,6 +1,7 @@
 package javaObjectOrientedProgramming.exercises.abstractClasses.classes.abstracts;
 
 import javax.swing.JOptionPane;
+import java.text.DecimalFormat;
 
 // Superclass
 // Object Class
@@ -12,6 +13,7 @@ public abstract class Employee {
     // Constructor
     public Employee(int employeeId, String name){
         this.employeeId = employeeId;
+        this.name = name;
     }
 
     // Getters
@@ -27,9 +29,12 @@ public abstract class Employee {
     public abstract float calculatePay();
 
     public void payRollDetail(){
+        DecimalFormat decimalFormat = new DecimalFormat("#.0");
+        String formattedEarnings = decimalFormat.format(calculatePay());
+
         JOptionPane.showMessageDialog(null, "PAYROLL DETAIL" +
                 "\nEmployee ID: " + getIdEmployee() +
-                "\nEmployee Name: " + name +
-                "\nTotal Earnings: $ " + calculatePay());
+                "\nEmployee Name: " + getName() +
+                "\nTotal Earnings: $ " + formattedEarnings);
     }
 }
