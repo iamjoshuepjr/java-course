@@ -1,0 +1,12 @@
+A company pays its employees on a weekly basis.
+There are two types of employees: salaried employees and hourly employees.
+
+* Salaried employees receive a fixed weekly salary regardless of the number of hours worked.
+* Hourly employees receive an hourly wage and are eligible for overtime pay for any hours worked beyond 40 hours in a week.
+
+The company wants to develop a Java application that calculates the total amount of payroll to be paid for the current month.
+The application should also generate individual settlements for each employee, displaying the detailed breakdown of their earnings.
+
+Additionally, the company plans to enhance the application by introducing two new types of employees.
+The first type is commission-based employees who earn a percentage of their sales.
+The second type is salary plus commission employees who receive a base salary in addition to a percentage of their sales.
