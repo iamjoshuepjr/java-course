@@ -1,6 +1,6 @@
-package javaObjectOrientedProgramming.exercises.abstractClasses.classes;
+package javaObjectOrientedProgramming.exercises.abstractClasses.classes.employee;
 
-import javaObjectOrientedProgramming.exercises.abstractClasses.classes.abstracts.Employee;
+import javaObjectOrientedProgramming.exercises.abstractClasses.classes.employee.abstracts.Employee;
 
 // Subclass
 // Object Class

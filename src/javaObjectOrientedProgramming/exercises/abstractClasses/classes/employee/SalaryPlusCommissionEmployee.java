@@ -1,6 +1,8 @@
-package javaObjectOrientedProgramming.exercises.abstractClasses.classes;
+package javaObjectOrientedProgramming.exercises.abstractClasses.classes.employee;
 
-public class SalaryPlusCommissionEmployee extends CommissionEmployee{
+import javaObjectOrientedProgramming.exercises.abstractClasses.classes.employee.CommissionEmployee;
+
+public class SalaryPlusCommissionEmployee extends CommissionEmployee {
     // Attributes
     private float salary;
 
