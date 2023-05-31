@@ -14,6 +14,19 @@ public abstract class Student extends Person{
         this.GPA = GPA;
     }
 
+    // Getters
+    public int getStudentId() {
+        return studentId;
+    }
+
+    public String getGradeLevel() {
+        return gradeLevel;
+    }
+
+    public float getGPA() {
+        return GPA;
+    }
+
     public abstract void study();
     public abstract void submitAssignment();
 
