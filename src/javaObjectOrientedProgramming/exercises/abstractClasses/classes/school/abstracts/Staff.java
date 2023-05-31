@@ -10,6 +10,11 @@ public abstract class Staff extends Person{
         this.staffId = staffId;
     }
 
+    // Getters
+    public int getStaffId() {
+        return staffId;
+    }
+
     // Abstract Method
     public abstract void work();
 }
