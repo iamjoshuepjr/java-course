@@ -1,7 +1,10 @@
 package javaObjectOrientedProgramming.exercises.abstractClasses.test;
 
-import javaObjectOrientedProgramming.exercises.abstractClasses.classes.*;
-import javaObjectOrientedProgramming.exercises.abstractClasses.classes.abstracts.Employee;
+import javaObjectOrientedProgramming.exercises.abstractClasses.classes.employee.CommissionEmployee;
+import javaObjectOrientedProgramming.exercises.abstractClasses.classes.employee.HourlyEmployee;
+import javaObjectOrientedProgramming.exercises.abstractClasses.classes.employee.SalariedEmployee;
+import javaObjectOrientedProgramming.exercises.abstractClasses.classes.employee.SalaryPlusCommissionEmployee;
+import javaObjectOrientedProgramming.exercises.abstractClasses.classes.employee.abstracts.Employee;
 
 import javax.swing.JOptionPane;
 import java.text.DecimalFormat;
