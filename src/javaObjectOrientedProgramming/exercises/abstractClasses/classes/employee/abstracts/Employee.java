@@ -1,4 +1,4 @@
-package javaObjectOrientedProgramming.exercises.abstractClasses.classes.abstracts;
+package javaObjectOrientedProgramming.exercises.abstractClasses.classes.employee.abstracts;
 
 import javax.swing.JOptionPane;
 import java.text.DecimalFormat;
