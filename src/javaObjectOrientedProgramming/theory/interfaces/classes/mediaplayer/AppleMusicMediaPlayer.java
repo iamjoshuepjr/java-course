@@ -1,6 +1,5 @@
 package javaObjectOrientedProgramming.theory.interfaces.classes.mediaplayer;
 
-import javaObjectOrientedProgramming.theory.interfaces.classes.mediaplayer.abstracts.VirtualMediaPlayer;
 import javaObjectOrientedProgramming.theory.interfaces.classes.mediaplayer.interfaces.MediaPlayer;
 
 import javax.swing.JOptionPane;
@@ -9,7 +8,7 @@ import javax.swing.JOptionPane;
 public class AppleMusicMediaPlayer implements MediaPlayer {
     @Override
     public void play() {
-        JOptionPane.showMessageDialog(null, "Apple' is playing a song!");
+        JOptionPane.showMessageDialog(null, "Apple's playing a song!");
     }
 
     @Override
