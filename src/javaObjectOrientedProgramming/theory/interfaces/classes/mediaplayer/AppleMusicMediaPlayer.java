@@ -1,10 +1,12 @@
 package javaObjectOrientedProgramming.theory.interfaces.classes.mediaplayer;
 
 import javaObjectOrientedProgramming.theory.interfaces.classes.mediaplayer.abstracts.VirtualMediaPlayer;
+import javaObjectOrientedProgramming.theory.interfaces.classes.mediaplayer.interfaces.MediaPlayer;
+
 import javax.swing.JOptionPane;
 
 // Concrete class implementing interface
-public class AppleMusicMediaPlayer extends VirtualMediaPlayer {
+public class AppleMusicMediaPlayer implements MediaPlayer {
     @Override
     public void play() {
         JOptionPane.showMessageDialog(null, "Apple' is playing a song!");
