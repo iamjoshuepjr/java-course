@@ -1,14 +1,11 @@
 package javaObjectOrientedProgramming.theory.interfaces.classes.shape;
 
-import javaObjectOrientedProgramming.theory.interfaces.classes.shape.interfaces.Drawable;
-import javaObjectOrientedProgramming.theory.interfaces.classes.shape.interfaces.Rotatable;
-import javaObjectOrientedProgramming.theory.interfaces.classes.shape.interfaces.Shape;
-
-import javax.swing.*;
+import javaObjectOrientedProgramming.theory.interfaces.classes.shape.interfaces.*;
+import javax.swing.JOptionPane;
 
 // Subclass
 // Object Class
-public class Triangle implements Shape, Drawable, Rotatable {
+public class Triangle implements IShape, IDrawable, IRotatable {
     // Attributes
     private float side1;
     private float side2;

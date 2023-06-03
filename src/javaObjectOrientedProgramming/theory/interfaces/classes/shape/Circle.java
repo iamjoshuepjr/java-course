@@ -1,14 +1,11 @@
 package javaObjectOrientedProgramming.theory.interfaces.classes.shape;
 
-import javaObjectOrientedProgramming.theory.interfaces.classes.shape.interfaces.Drawable;
-import javaObjectOrientedProgramming.theory.interfaces.classes.shape.interfaces.Rotatable;
-import javaObjectOrientedProgramming.theory.interfaces.classes.shape.interfaces.Shape;
-
+import javaObjectOrientedProgramming.theory.interfaces.classes.shape.interfaces.*;
 import javax.swing.JOptionPane;
 
 // Subclass
 // Object Class
-public class Circle implements Shape, Drawable, Rotatable {
+public class Circle implements IShape, IDrawable, IRotatable {
     // Attributes
     private float radius;
 

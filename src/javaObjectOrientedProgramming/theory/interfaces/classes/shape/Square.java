@@ -1,14 +1,12 @@
 package javaObjectOrientedProgramming.theory.interfaces.classes.shape;
 
-import javaObjectOrientedProgramming.theory.interfaces.classes.shape.interfaces.Drawable;
-import javaObjectOrientedProgramming.theory.interfaces.classes.shape.interfaces.Rotatable;
-import javaObjectOrientedProgramming.theory.interfaces.classes.shape.interfaces.Shape;
 
-import javax.swing.*;
+import javaObjectOrientedProgramming.theory.interfaces.classes.shape.interfaces.*;
+import javax.swing.JOptionPane;
 
 // Subclass
 // Object Class
-public class Square implements Shape, Drawable, Rotatable {
+public class Square implements IShape, IDrawable, IRotatable {
     // Attributes
     float side;
 
