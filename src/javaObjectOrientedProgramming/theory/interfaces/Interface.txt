@@ -39,3 +39,21 @@ This enforces a consistent behavior across different classes implementing the sa
            // Default method implementation
        }
    }
+
+5. Multiple Inheritance:
+   Java interfaces support multiple inheritance, allowing a class to implement multiple interfaces.
+   This enables a class to inherit and define behavior from multiple sources.
+
+6. Polymorphism: Interfaces facilitate polymorphism, allowing objects of different classes to be treated uniformly through a common interface type.
+   This provides flexibility and allows for interchangeable usage of different implementations.
+
+7. Implementing an Interface:
+   A class can implement one or more interfaces using the implements keyword. It must provide an implementation for all the methods declared in the interface.
+   For example:
+
+    public class AClass implements AInterface {
+        // implementation of the interface methods
+        public void myMethod() {
+            // Implementation of the method
+        }
+    }
