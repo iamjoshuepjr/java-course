@@ -1,0 +1,41 @@
+In Java, an interface is a reference type that defines a set of abstract methods that a class must implement.
+It acts as a contract, specifying the behavior that implementing classes must adhere to.
+An interface can also include constant fields, default methods, and static methods.
+By implementing an interface, a class explicitly agrees to fulfill the contract defined by the interface,
+which means it must implement all the methods declared in the interface.
+This enforces a consistent behavior across different classes implementing the same interface.
+
+1. Declaration:
+   Interfaces are declared using the interface keyword.
+   For example:
+
+   public interface MyInterface {
+       // Abstract method declaration
+       void myMethod();
+   }
+
+2. Abstract Methods:
+   Interfaces declare abstract methods without providing an implementation.
+   Any class implementing the interface must override these methods and provide their own implementation.
+
+3. Static Methods:
+   Interfaces can have static methods, which can be called directly on the interface itself, without the need for an implementing class instance.
+   For example:
+
+   public interface MyInterface{
+    public void static myStaticMethod(){
+        // Static method implementation
+    }
+   }
+
+4. Default Methods:
+   Starting from Java 8, interfaces can also have default methods.
+   These methods have an implementation defined in the interface itself.
+   Implementing classes can use the default implementation or override it if needed.
+   For example:
+
+   public interface MyInterface {
+       default void myMethod() {
+           // Default method implementation
+       }
+   }
