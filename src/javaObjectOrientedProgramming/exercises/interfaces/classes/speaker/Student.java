@@ -38,7 +38,7 @@ public class Student extends Person {
         message.append(getName() + ", it's time to read!\n");
         message.append("Books to read: ");
         for (String book : books) {
-            message.append(book);
+            message.append("\n +" + book);
             if (book != books[books.length - 1]) {
                 message.append(", ");
             } else {

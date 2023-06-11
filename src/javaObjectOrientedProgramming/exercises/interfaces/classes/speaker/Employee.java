@@ -1,8 +1,7 @@
 package javaObjectOrientedProgramming.exercises.interfaces.classes.speaker;
 
 import javaObjectOrientedProgramming.exercises.interfaces.classes.speaker.abstracts.Person;
-
-import javax.swing.*;
+import javax.swing.JOptionPane;
 
 public class Employee extends Person {
     // Attributes
@@ -39,7 +38,7 @@ public class Employee extends Person {
         message.append("Books to read: ");
 
         for (String book: books) {
-            message.append("\n" + book);
+            message.append("\n - " + book);
             if (book != books[books.length - 1]){
                 message.append(", ");
             } else {
@@ -54,10 +53,10 @@ public class Employee extends Person {
     public void stayUpdated(String[] breakingNews) {
         StringBuilder message = new StringBuilder();
         message.append(getName() + ", it's time to get updated!");
-        message.append("Breaking News for reading:");
+        message.append("Breaking News for reading: ");
 
         for (String breakingNew: breakingNews) {
-            message.append("\n" + breakingNew);
+            message.append("\n * " + breakingNew);
             if (breakingNew != breakingNews[breakingNews.length -1 ]){
                 message.append(", ");
             } else {
