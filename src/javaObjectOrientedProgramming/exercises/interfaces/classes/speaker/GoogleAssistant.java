@@ -46,9 +46,9 @@ public class GoogleAssistant extends VirtualAssistant {
     // Own Methods
     public void playPodcast(String[] podcasts){
         StringBuilder message = new StringBuilder();
-        message.append("Podcasts to play: \n");
+        message.append("\nPodcasts to play:");
         for (String podcast: podcasts) {
-            message.append(podcast);
+            message.append("\n" + podcast);
             if(podcast != podcasts[podcasts.length - 1]){
                 message.append(", ");
             } else {
