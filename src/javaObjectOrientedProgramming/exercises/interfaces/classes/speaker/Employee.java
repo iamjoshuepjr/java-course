@@ -79,7 +79,7 @@ public class Employee extends Person {
 
     @Override
     public void speak() {
-        JOptionPane.showMessageDialog(null, "JOptionPane.showMessageDialog(null, \"STUDENT STUDYING!\"); SPEAKING!\n" +  "Well, currently I am a software engineer. \n" +
+        JOptionPane.showMessageDialog(null, "EMPLOYEE SPEAKING!\n" +  "Well, currently I am a software engineer. \n" +
                 "Also, I am learning about the English language, because I love it. ");
     }
 
