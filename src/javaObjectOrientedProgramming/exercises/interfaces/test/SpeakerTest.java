@@ -1,6 +1,8 @@
 package javaObjectOrientedProgramming.exercises.interfaces.test;
 
 import javaObjectOrientedProgramming.exercises.interfaces.classes.speaker.*;
+
+import javax.swing.*;
 import java.util.Date;
 
 // Class Controller
@@ -89,6 +91,11 @@ public class SpeakerTest {
         alexa.activate();
         alexa.sayHello();
         alexa.speak();
+        String song = JOptionPane.showInputDialog("Enter the song you want to play");
+        alexa.playMusic(song);
+        String device = JOptionPane.showInputDialog("What device do you want to control?");
+        String action = JOptionPane.showInputDialog("What action do you want to perform?");
+        alexa.controlSmartHomeDevice(device, action);
         alexa.sayBye();
         alexa.deactivate();
 
@@ -130,7 +137,7 @@ public class SpeakerTest {
         siri.sayHello();
         siri.speak();
         siri.getWeatherForecast("California");
-        siri.makePhoneCall("");
+        siri.makePhoneCall("502-123-4567");
         siri.sayBye();
         siri.deactivate();
     }
