@@ -2,7 +2,7 @@ package javaObjectOrientedProgramming.exercises.interfaces.test;
 
 import javaObjectOrientedProgramming.exercises.interfaces.classes.speaker.*;
 
-import javax.swing.*;
+import javax.swing.JOptionPane;
 import java.util.Date;
 
 // Class Controller
