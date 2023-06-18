@@ -11,12 +11,15 @@ public class CyberAttackTest {
         Hacker grayHat = new GrayHat("RoguePhantom", Motivation.CURIOSITY, Techniques.SOCIAL_ENGINEERING, Experience.MID_LEVEL);
         Hacker blackHat = new BlackHat("ShadowStrike", Motivation.FINANCIAL_GAIN, Techniques.DDoS, Experience.JUNIOR);
 
+        whiteHat.information();
         whiteHat.typeScript();
         whiteHat.executeAttack();
 
+        grayHat.information();
         grayHat.typeScript();
         grayHat.executeAttack();
 
+        blackHat.information();
         blackHat.typeScript();
         blackHat.executeAttack();
 
