@@ -2,8 +2,7 @@ package javaObjectOrientedProgramming.exercises.interfaces.classes.cyberAttack;
 
 import javaObjectOrientedProgramming.exercises.interfaces.classes.cyberAttack.abstracts.Hacker;
 import javaObjectOrientedProgramming.exercises.interfaces.classes.cyberAttack.enums.*;
-
-import javax.swing.*;
+import javax.swing.JOptionPane;
 
 public class WhiteHat extends Hacker {
 
