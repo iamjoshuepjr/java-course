@@ -1,6 +1,6 @@
-package javaFundamentals.controlStructures.decisionMaking.exercises;
+package javaFundamentals.controlStructures.decisionMaking.exercises.ifStatement.IfElse;
 
-import javax.swing.*;
+import javax.swing.JOptionPane;
 
 public class CompareNumbers {
     public static void main(String[] args) {
