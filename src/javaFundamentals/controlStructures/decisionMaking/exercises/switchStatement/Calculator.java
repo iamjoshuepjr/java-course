@@ -1,6 +1,6 @@
-package javaFundamentals.controlStructures.decisionMaking.exercises;
+package javaFundamentals.controlStructures.decisionMaking.exercises.switchStatement;
 
-import javax.swing.*;
+import javax.swing.JOptionPane;
 
 public class Calculator {
     public static void main(String[] args) {

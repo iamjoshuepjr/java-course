@@ -1,4 +1,4 @@
-package javaFundamentals.controlStructures.decisionMaking.exercises;
+package javaFundamentals.controlStructures.decisionMaking.exercises.switchStatement;
 
 import javax.swing.JOptionPane;
 
