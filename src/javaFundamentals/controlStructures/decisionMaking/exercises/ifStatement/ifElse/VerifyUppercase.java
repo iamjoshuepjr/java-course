@@ -1,4 +1,4 @@
-package javaFundamentals.controlStructures.decisionMaking.exercises.ifStatement.IfElse;
+package javaFundamentals.controlStructures.decisionMaking.exercises.ifStatement.ifElse;
 
 import javax.swing.JOptionPane;
 
