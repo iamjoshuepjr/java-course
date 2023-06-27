@@ -9,13 +9,14 @@ public class Car {
     // Empty Constructor
     public Car(){}
 
-    // Constructor Overload
+    // Constructor Overloaded
     public Car(String brand, String model, Engine engine){
         this.brand = brand;
         this.model = model;
         this.engine = engine;
     }
 
+    // Getters and Setters
     public String getBrand() {
         return brand;
     }

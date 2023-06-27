@@ -5,13 +5,16 @@ public class Engine {
     private String type;
     private short horsePower;
 
+    // Empty Constructor
     public Engine(){}
 
+    // Constructor Overloaded
     public Engine(String type, short horsePower){
         this.type = type;
         this.horsePower = horsePower;
     }
 
+    // Getters and Setters
     public String getType() {
         return type;
     }
