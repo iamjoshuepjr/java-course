@@ -1,0 +1,37 @@
+                                    Association Relationship
+It's a general form of relationship that does not imply any specific ownership or dependency
+between the associated classes.
+Is a relationship between two or more classes in Java, indicating that objects of one class
+are connected to objects of another class.
+
+In association relationship, objects of one class are aware of the other class and can interact
+with its objects, but they do not have direct ownership or control over each  other.
+
+The association relationship can be represented through instance variables, methods parameters,
+or even as return types of methods.
+These references allow object to collaborate and exchange information.
+
+1. Multiplicity/Cardinality
+   Association relationship can have multiplicities or cardinalities, which define the number of
+   instances involved in the relationship.
+   For example:
+   * One-to-one association means each object of one class is associated with exactly one object of
+     the other class.
+   * One-to-many association means each object of one class is associated with multiples objects of
+     the other class.
+
+2. Navigation
+   Association can be navigated in different directions.
+   Unidirectional association:
+   * Objects of a class can access objects of another class, but the reverse is not true.
+   Bidirectional association:
+   * Objects of both classes can access each other.
+
+3. Role Names:
+   Can be assigned to each end of the association to provide a descriptive name for the role that a class
+   pays in the relationship. Roles names help clarify the purpose and semantics of the association.
+
+4. Association Classes:
+   Sometimes, an association relationship may have additional attributes or behaviors associated with it.
+   In such cases, an association class can be used to represent the relationship as a separate class. This class
+   contains attributes and methods specific to the association.
