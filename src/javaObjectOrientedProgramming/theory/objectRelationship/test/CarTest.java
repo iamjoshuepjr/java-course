@@ -1,7 +1,7 @@
 package javaObjectOrientedProgramming.theory.objectRelationship.test;
 
-import javaObjectOrientedProgramming.theory.objectRelationship.association.Car;
-import javaObjectOrientedProgramming.theory.objectRelationship.association.Engine;
+import javaObjectOrientedProgramming.theory.objectRelationship.association.onetoone.classes.carEngine.Car;
+import javaObjectOrientedProgramming.theory.objectRelationship.association.onetoone.classes.carEngine.Engine;
 
 import javax.swing.JOptionPane;
 
