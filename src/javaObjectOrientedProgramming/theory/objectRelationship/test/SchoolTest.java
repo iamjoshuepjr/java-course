@@ -1,7 +1,6 @@
 package javaObjectOrientedProgramming.theory.objectRelationship.test;
 
 import javaObjectOrientedProgramming.theory.objectRelationship.association.onetomany.classes.school.*;
-
 import javax.swing.JOptionPane;
 import java.util.ArrayList;
 
