@@ -1,6 +1,5 @@
 package javaObjectOrientedProgramming.theory.objectRelationship.association.onetoone.classes.animalMicrochip;
 
-import java.text.SimpleDateFormat;
 import java.util.GregorianCalendar;
 
 // Object CLass
@@ -15,7 +14,7 @@ public class Animal {
     private String gender;
     private String owner_id;
     private GregorianCalendar date_birth;
-    private SimpleDateFormat date_adoption;
+    private GregorianCalendar date_adoption;
 
     // Empty Constructor
     public Animal(){}
