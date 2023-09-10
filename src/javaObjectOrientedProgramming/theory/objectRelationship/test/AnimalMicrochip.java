@@ -3,6 +3,7 @@ package javaObjectOrientedProgramming.theory.objectRelationship.test;
 import javaObjectOrientedProgramming.theory.objectRelationship.association.onetoone.classes.animalMicrochip.Animal;
 
 import javax.swing.*;
+import java.text.SimpleDateFormat;
 import java.util.GregorianCalendar;
 
 public class AnimalMicrochip {
@@ -22,6 +23,7 @@ public class AnimalMicrochip {
         animal1.setDate_birth(birthDate);
         animal1.setDate_adoption(adoptionDate);
 
+        SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
 
         JOptionPane.showMessageDialog(null, "Cat Information!" +
                 "\nId: " + animal1.getAnimal_id() +
@@ -32,8 +34,8 @@ public class AnimalMicrochip {
                 "\nColor " + animal1.getColor() +
                 "\nGender: " + animal1.getGender() +
                 "\nOwner Id: " + animal1.getOwner_id() +
-                "\nBirth Date: " + animal1.getDate_birth().getTime() +
-                "\nAdoption Date: " + animal1.getDate_adoption().getTime()
+                "\nBirth Date: " + dateFormat.format(animal1.getDate_birth().getTime()) +
+                "\nAdoption Date: " + dateFormat.format(animal1.getDate_adoption().getTime())
         );
     }
 }
