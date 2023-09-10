@@ -2,7 +2,7 @@ package javaObjectOrientedProgramming.theory.objectRelationship.test;
 
 import javaObjectOrientedProgramming.theory.objectRelationship.association.onetoone.classes.animalMicrochip.Animal;
 
-import javax.swing.*;
+import javax.swing.JOptionPane;
 import java.text.SimpleDateFormat;
 import java.util.GregorianCalendar;
 
