@@ -11,7 +11,7 @@ public class Client {
     private List<Product> products;
 
     // Empty Constructor
-    public Client(){}
+    public Client(){} 
 
     // Overloaded Constructor
     public Client(String id, String name){
