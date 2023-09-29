@@ -50,5 +50,3 @@ public class Agent {
                 "Skill: " +skill+ "\n";
     }
 }
-
-

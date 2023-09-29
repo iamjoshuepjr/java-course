@@ -5,7 +5,7 @@ Is a relationship between two or more classes in Java, indicating that objects o
 are connected to objects of another class.
 
 In association relationship, objects of one class are aware of the other class and can interact
-with its objects, but they do not have direct ownership or control over each  other.
+with its objects, but they do not have direct ownership or control over each other.
 
 The association relationship can be represented through instance variables, methods parameters,
 or even as return types of methods.
