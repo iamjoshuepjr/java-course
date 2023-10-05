@@ -8,6 +8,7 @@ public class PrinterTest {
         Document document = new Document("The Game", "This book has changed a great amount of lives!");
         Printer printer = new Printer();
 
+        printer.turnOn();
         printer.toPrint(document);
     }
 }
