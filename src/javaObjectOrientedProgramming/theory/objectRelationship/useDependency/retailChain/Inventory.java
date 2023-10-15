@@ -1,6 +1,6 @@
 package javaObjectOrientedProgramming.theory.objectRelationship.useDependency.retailChain;
 
-import javax.swing.*;
+import javax.swing.JOptionPane;
 
 public class Inventory {
     private Product product;
