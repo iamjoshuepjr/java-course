@@ -1,11 +1,13 @@
 package javaObjectOrientedProgramming.theory.objectRelationship.useDependency.appleProduct;
 
+import java.util.ArrayList;
+
 // Object Class
 public class Customer {
     // Attributes
     private String customerID;
     private String customerName;
-    private AppleProduct ownedProduct;
+    private ArrayList<AppleProduct> ownedProduct;
 
     // Empty Constructor
     public Customer(){}
@@ -14,13 +16,15 @@ public class Customer {
     public Customer(String customerID, String customerName){
         this.customerID = customerID;
         this.customerName = customerName;
-        this.ownedProduct = null;
+        this.ownedProduct = new ArrayList<AppleProduct>();
     }
 
 
     // Purchase Method
     public void purchaseProduct(AppleProduct product){
-        this.ownedProduct = product;
+        if (ownedProduct == null)
+            ownedProduct = new ArrayList<AppleProduct>();
+        ownedProduct.add(product);
     }
 
 
@@ -33,7 +37,7 @@ public class Customer {
         return customerName;
     }
 
-    public AppleProduct getOwnedProduct() {
+    public ArrayList<AppleProduct> getOwnedProduct() {
         return ownedProduct;
     }
 }
