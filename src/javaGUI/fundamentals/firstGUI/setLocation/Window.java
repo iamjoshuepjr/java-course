@@ -1,4 +1,4 @@
-package javaGUI.fundamentals;
+package javaGUI.fundamentals.firstGUI.setLocation;
 
 import javax.swing.*;
 public class Window extends JFrame {
