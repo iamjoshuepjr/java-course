@@ -1,6 +1,6 @@
-package javaGUI.fundamentals.firstGUI;
+package javaGUI.fundamentals.firstGUI.setLocation;
 
-import javaGUI.fundamentals.firstGUI.Window;
+import javaGUI.fundamentals.firstGUI.setLocation.Window;
 
 public class WindowTest {
     public static void main(String[] args) {
