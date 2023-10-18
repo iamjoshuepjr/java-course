@@ -1,8 +1,8 @@
 package javaGUI.fundamentals.firstGUI.setLocation;
 
 import javax.swing.*;
-public class Window extends JFrame {
-    public Window() {
+public class WindowsLocation extends JFrame {
+    public WindowsLocation() {
         setSize(500, 300); // Allows us to set the size of the frame; width and height in pixels.
         setLocation(500, 400);
         setVisible(true); // Make the frame visible.

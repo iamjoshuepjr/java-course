@@ -1,6 +1,4 @@
-package javaGUI.fundamentals.firstGUI.setBounds;
-
-import javaGUI.fundamentals.firstGUI.setBounds.Window;
+package javaGUI.fundamentals.firstGUI.setMethodsGUI;
 
 public class WindowsTest {
     public static void main(String[] args) {
