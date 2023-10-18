@@ -1,7 +1,7 @@
-package javaGUI.fundamentals.firstGUI.setLocation;
+package javaGUI.fundamentals.firstGUI.setMethodsGUI.location;
 
-public class WindowTest {
+public class WindowLocationTest {
     public static void main(String[] args) {
-        WindowsLocation window = new WindowsLocation();
+        WindowLocation window = new WindowLocation();
     }
 }
